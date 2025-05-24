@@ -1,0 +1,8 @@
+# .serverlessignore
+node_modules
+.git
+tests
+coverage
+.vscode
+*.md
+*.log
