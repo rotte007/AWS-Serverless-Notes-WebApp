@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - echo Invalidating CloudFront Cache
-      # - aws cloudfront create-invalidation --distribution-id XXXXXXXX --paths "/*"
+      - aws cloudfront create-invalidation --distribution-id E389RRRRF5UIRR --paths "/*"
   post_build:
     commands:
       - echo Deployment completed on `date`
